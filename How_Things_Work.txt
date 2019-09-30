@@ -1,0 +1,20 @@
+*********************UI************************************************
+1. Unzip the uitest.zip.
+2. Place the uitest in the workspace and import it as an Exsisting Maven Project.
+3. From Command Prompt go to the location : Workspace/uitest
+4. Run the test with command :  mvn clean test -Dbrowser=chrome
+5. Observe the ChromeBrowser getting invoked.
+6. After the sucessfull run please go to Reports folder in the Project and click on the reports to see the details Log. with proper Extent Report.
+6. For referece 2 videos are added one with maven run and the other with jenkins.
+7. Reporting is done via Extent Report.
+8. Logging via Extent Test.
+
+
+*****************************API**********************************
+1. Unzip the Upgrade_api.zip.
+2. Place the uitest in the workspace and import it as an Exsisting Maven Project.
+3. From Command Prompt go to the location : Workspace/upgradeapi 
+4. Run the test with command : mvn clean test -Dpassword=On$3XcgsW#9q
+5. RestAssured Framework.
+6. Pojo for serialization and deserialization.
+7. Added just a small version of Log4j (log.info) : Go to Logs folder and verify the logs
